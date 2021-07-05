@@ -11,6 +11,7 @@
     "nodemon": "^2.0.9"
   },
   "scripts": {
-    "start": "dotenv -e .env nodemon index.js"
+    "dev": "dotenv -e .env nodemon index.js",
+    "start": "dotenv -e .env node index.js"
   }
 }
