@@ -5,5 +5,12 @@
   "license": "MIT",
   "dependencies": {
     "telegraf": "^4.4.0"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^4.0.0",
+    "nodemon": "^2.0.9"
+  },
+  "scripts": {
+    "start": "dotenv -e .env nodemon index.js"
   }
 }
