@@ -1,0 +1,9 @@
+{
+  "name": "agabot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.4.0"
+  }
+}
